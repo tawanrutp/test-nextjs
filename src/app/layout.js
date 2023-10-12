@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { PrimeReactProvider } from 'primereact/api';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,3 +16,4 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
